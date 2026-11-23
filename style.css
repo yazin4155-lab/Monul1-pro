@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;
+  color: #222222;
+  margin: 30px;
+}
+
+h1 {
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: #555555;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+/* Fitness routine card using the Box Model and float */
+.card {
+  width: 45%;            /* Two cards fit per row with space between */
+  float: left;           /* Places cards side by side */
+  background-color: #ffffff;
+  border: 2px solid #2b6cb0; /* Border */
+  padding: 18px;         /* Inner space around the text */
+  margin-right: 4%;      /* Space between left and right cards */
+  margin-bottom: 20px;   /* Space below each card */
+}
+
+/* Starts a new row below floated cards */
+.new-row {
+  clear: both;
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #2b6cb0;
+}
+
+.card p {
+  margin: 0;
+  line-height: 1.5;
+}
